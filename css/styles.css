@@ -1,0 +1,30 @@
+body{
+  background-color: #c8eed9;
+}
+hr{
+  background-color: #c8eed9;
+  border-style: none;
+  border-top-style: dotted;
+  width: 50%;
+  border-width: 10px;
+}
+h1{
+  text-align: center;
+  font-family: cursive;
+}
+h5{
+  text-align: center;
+  font-family: monospace;
+}
+td {
+  align-items: center;
+}
+.center{
+  margin-left: auto;
+  margin-right: auto;
+}
+a{
+  text-align: center;
+  font-family: fantasy;
+  display: block;
+}
