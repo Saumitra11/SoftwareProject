@@ -56,8 +56,19 @@ a:hover {
   color: tomato;
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 60%;
   transform: translate(-50%, -50%);
   border: 5px solid tomato;
   padding: 10px;
+  font-size: 20px;
+}
+.h1-edit{
+  text-align: center;
+  font-family: serif;
+  color: tomato;
+  border: 5px solid tomato;
+  font-size: 100px;
+}
+input{
+  font-size: 20px;
 }

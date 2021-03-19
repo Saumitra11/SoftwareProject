@@ -5,12 +5,13 @@
   <meta charset="utf-8">
   <title>Sign Up</title>
   <link rel="stylesheet" href="./css/styles.css">
+  <link rel="icon" href="Images/favicon7.ico">
 </head>
 
 <body>
-  <h1 style="text-align: center; font-family: serif; color: tomato; border: 5px solid tomato;">SIGN UP FOR SPORTS HUB</h1>
+  <h1 class="h1-edit">SIGN UP FOR SPORTS HUB</h1>
   <div class="center2">
-    <form action="index.html" method="post" align="center" width="10px">
+    <form action="index.html" method="post" align="center" width="10px" onsubmit="if(document.getElementById('agree').checked) { return true; } else { alert('Please indicate that you have read and agree to the Terms and Conditions and Privacy Policy'); return false; }">
       <fieldset>
         <legend>Sign Up</legend>
         <table align="center" cellspacing="10px">
@@ -67,7 +68,7 @@
               <label for="sportplayed">What is your main sport?</label>
             </td>
             <td>
-              <select name="">
+              <select style="font-size: 20px"name="">
                 <option value="football">Football</option>
                 <option value="cricket" selected>Cricket</option>
                 <option value="hockey">Hockey</option>
@@ -76,6 +77,9 @@
                 <option value="squash">Squash</option>
               </select>
             </td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="checkbox" value="check" id="agree" /> I have read and agree to the Terms and Conditions and Privacy Policy</td>
           </tr>
           <tr>
             <td>
